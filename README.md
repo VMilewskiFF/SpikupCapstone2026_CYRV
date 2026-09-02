@@ -5,7 +5,7 @@ See [`data/README.md`](data/README.md) for what each data file contains.
 
 ## Repo structure
 
-- `data/` — the dataset used for analysis. See its README for details.
+- `data/` — the dataset used for analysis. See its README for details. GitHub blocks files over 100MB, so be careful not to add more/larger data files here — the geolocation file is already close to that.
 - `src/cyrv/` — shared code, packaged as `cyrv` so it can be imported anywhere with `import cyrv`. Optional — you can also just write standalone scripts here and run them directly, no import needed.
 - `notebooks/` — Jupyter notebooks for exploration and analysis.
 - `pyproject.toml` — project dependencies, managed with `uv`.
